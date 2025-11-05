@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restoran Saytı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">🍴 Restoran</div>
+      <button class="menu-toggle" id="menu-toggle">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home">
+    <h1>Xoş gəlmisiniz!</h1>
+    <p>Ən ləzzətli yeməkləri bizim restoranda dadın.</p>
+  </section>
+
+  <section id="about" class="section about">
+    <h2>Haqqımızda</h2>
+    <p>Bizim məqsədimiz müştərilərə təzə, keyfiyyətli və dadlı yeməklər təqdim etməkdir.</p>
+  </section>
+
+  <section id="menu" class="section menu">
+    <h2>Menu</h2>
+    <div class="categories">
+      <button class="cat-btn" data-category="soup">Soups</button>
+      <button class="cat-btn" data-category="pizza">Pizza</button>
+      <button class="cat-btn" data-category="dessert">Desserts</button>
+      <button class="cat-btn" data-category="drink">Drinks</button>
+    </div>
+    <div class="menu-items" id="menu-items"></div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Əlaqə</h2>
+    <p>Email: info@restoran.az | Tel: +994 50 123 45 67</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Restoran Layihəsi | Elmira üçün hazırlanıb 🍀</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
